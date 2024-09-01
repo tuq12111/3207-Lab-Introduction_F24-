@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "random.h"
 
-char ranchar()
+char randchar()
 {
     return 'A' + rand() % 26;
 }
